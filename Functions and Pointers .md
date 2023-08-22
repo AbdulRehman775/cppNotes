@@ -17,7 +17,14 @@ Its syntax is like this
 ```cpp
 [capture list of arguments] (parameters) -> return_type {
 };
+
+// or
+
+auto me = [](){};
+cout << me ;
+
 ```
+where we put surrounding variables in the capture list .
 
 These lambda functions improve readabilty of code and are useful for functional programming.
 
